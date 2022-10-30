@@ -1,0 +1,71 @@
+h1 {
+  text-shadow: 1px 1px grey;
+}
+
+
+.topnav {overflow: hidden;
+        background-color: black;
+        padding: 1em;
+        font-size 15px; 
+        top: 5;
+        bottom: 5;
+        position: sticky;
+        width: 100%; 
+        font-family: 'Roboto Slab', serif;
+        align-items:center;  
+    }
+
+.search {float: center;
+        text-align: center;
+        margin-top: 13px;}
+
+.logo {color: red}
+
+.cart {text-align: right;
+        color:white;
+        margin-right: 13px;
+        float: center;
+        margin-bottom: 20px;}
+
+.topnav a {
+  float: left;
+  display: inline-flexbox;
+  color: white;
+  text-align: center;
+  padding: 2px 2px;
+  padding: 1em;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background: white;
+  border: 2px solid black;
+  color: red;
+}
+
+.bottomnav a {
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 12x 15px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Cairo', sans-serif;
+  display: inline-flexbox;
+}
+
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+/* The element to apply the animation to */
+.bottomnav {
+  background-color: red;
+  animation-name: example;
+  animation-duration: 5s;
+}
