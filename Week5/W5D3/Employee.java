@@ -1,0 +1,16 @@
+
+public class Employee extends MainClass {
+	private int salary;
+
+	public Employee(String name, int age) {
+		super(name, age);
+		// TODO Auto-generated constructor stub
+	}
+
+	public Employee(String name, int age, int salary) {
+		super(name, age);
+		this.salary = salary;
+	}
+	
+	
+}
